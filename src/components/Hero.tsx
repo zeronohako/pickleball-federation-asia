@@ -1,7 +1,7 @@
 // components/Hero.tsx
 export default function Hero() {
   return (
-    <section className="relative bg-[url('/images/hero-asian-court.jpg')] bg-cover bg-center text-white">
+    <section className="relative bg-[url('/images/hero-court.jpg')] bg-cover bg-center text-white">
       <div className="bg-black/40">
         <div className="max-w-6xl mx-auto px-6 py-28">
           <h1 className="text-4xl md:text-6xl font-extrabold">Unite for Pickleball in Asia</h1>

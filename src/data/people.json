@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Brian Ji",
+    "role": "President",
+    "bio": "Brian has served in sports administration for 12 years and champions grassroots development across Asia.",
+    "photo": "/images/team/brian.jpg",
+    "country": "South Korea",
+    "email": "brian@example.org"
+  },
+  {
+    "name": "Gihun Seong",
+    "role": "Vice President — Development",
+    "bio": "Gihun focuses on coach education and youth programs, with a background in sports science.",
+    "photo": "/images/team/gihun.jpg",
+    "country": "South Korea",
+    "email": "gihun@example.org"
+  },
+  {
+    "name": "Siti Nurhaliza",
+    "role": "Head of Events",
+    "bio": "Siti directs the events calendar and regional partnerships, with experience organizing multi-city competitions.",
+    "photo": "/images/team/siti.jpg",
+    "country": "Malaysia",
+    "email": "siti@example.org"
+  },
+  {
+    "name": "Rahul Singh",
+    "role": "Technical Director",
+    "bio": "Rahul oversees rules, refereeing standards, and competition integrity.",
+    "photo": "/images/team/rahul.jpg",
+    "country": "Pakistan",
+    "email": "rahul@example.org"
+  }
+]

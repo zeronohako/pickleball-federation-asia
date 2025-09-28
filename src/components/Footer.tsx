@@ -9,7 +9,7 @@ export default function Footer() {
         </div>
 
         <div className="text-sm">
-          <div>Quick links</div>
+          <div><strong>Quick links</strong></div>
           <ul className="mt-2 space-y-2">
             <li><a href="/events">Events</a></li>
             <li><a href="/membership">Membership</a></li>

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "The Pickleball World Federation",
+    "logo": "/images/partners/pwf.png",
+    "url": "https://dev.pwfpickleball.org/"
+  },
+  {
+    "name": "Korean Pickleball Youth Association",
+    "logo": "/images/partners/kypa.png",
+    "url": "https://www.koreaypa.org/en"
+  },
+  {
+    "name": "Dummy YouthSport Foundation",
+    "logo": "/images/partners/youthsport.png",
+    "url": "https://example.org"
+  }
+]
