@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Asia Open 2026",
+    "slug": "asia-open-2026",
+    "date": "2026-09-10",
+    "country": "Japan",
+    "city": "Tokyo",
+    "excerpt": "A continental open for top players.",
+    "featuredImage": "/images/events/asia-open.jpg"
+  },
+  {
+    "title": "Seoul Invitational 2026",
+    "slug": "seoul-invitational-2026",
+    "date": "2026-07-05",
+    "country": "South Korea",
+    "city": "Seoul",
+    "excerpt": "Regional invitational with senior & junior draws.",
+    "featuredImage": "/images/events/seoul.jpg"
+  },
+  {
+    "title": "Bangkok Community Cup",
+    "slug": "bangkok-community-cup",
+    "date": "2026-05-20",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "excerpt": "Grassroots festival for clubs & schools.",
+    "featuredImage": "/images/events/bangkok.jpg"
+  }
+]
