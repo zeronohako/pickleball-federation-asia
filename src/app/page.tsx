@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import ProgramCard from '../components/ProgramCard'
 import EventCard from '../components/EventCard'
 import events from '@/data/events.json'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-semibold">Upcoming Events</h2>
-            <a className="text-sm underline" href="/events">View all events</a>
+            <Link className="text-sm underline" href="/events">View all events</Link>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

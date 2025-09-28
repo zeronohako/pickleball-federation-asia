@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 // components/Hero.tsx
 export default function Hero() {
   return (
@@ -7,8 +9,8 @@ export default function Hero() {
           <h1 className="text-4xl md:text-6xl font-extrabold">Unite for Pickleball in Asia</h1>
           <p className="mt-4 text-lg max-w-xl">Events, coach education, and community programs to grow the sport across the region.</p>
           <div className="mt-6 flex gap-4">
-            <a href="/events" className="px-4 py-2 bg-white text-black rounded">Discover Events</a>
-            <a href="/membership" className="px-4 py-2 border border-white rounded">Become a Member</a>
+            <Link href="/events" className="px-4 py-2 bg-white text-black rounded">Discover Events</Link>
+            <Link href="/membership" className="px-4 py-2 border border-white rounded">Become a Member</Link>
           </div>
         </div>
       </div>

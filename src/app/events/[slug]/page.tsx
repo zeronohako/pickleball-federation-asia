@@ -3,6 +3,7 @@ import { getAllEventSlugs, getEventBySlug } from '@/lib/events'
 import Image from 'next/image'
 import EventSchedule from '@/components/EventSchedule'
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 type Props = {
   params: { slug: string }
@@ -20,7 +21,7 @@ export default function EventDetail({ params }: Props) {
     return (
       <div className="max-w-4xl mx-auto px-6 py-20">
         <h2 className="text-xl font-semibold">Event not found</h2>
-        <p className="mt-2 text-slate-600">We couldn't find that event.</p>
+        <p className="mt-2 text-slate-600">We couldn&apos;t find that event.</p>
       </div>
     )
   }
@@ -50,7 +51,7 @@ export default function EventDetail({ params }: Props) {
             <li><strong>Country:</strong> {event.country}</li>
             {event.registrationUrl && (
               <li>
-                <a className="inline-block mt-2 px-4 py-2 bg-brand-600 text-white rounded" href={event.registrationUrl} target="_blank" rel="noreferrer">Register</a>
+                <Link className="inline-block mt-2 px-4 py-2 bg-brand-600 text-white rounded" href={event.registrationUrl} target="_blank" rel="noreferrer">Register</Link>
               </li>
             )}
           </ul>

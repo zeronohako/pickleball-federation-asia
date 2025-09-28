@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 // components/Footer.tsx
 export default function Footer() {
   return (
@@ -11,9 +13,9 @@ export default function Footer() {
         <div className="text-sm">
           <div><strong>Quick links</strong></div>
           <ul className="mt-2 space-y-2">
-            <li><a href="/events">Events</a></li>
-            <li><a href="/membership">Membership</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link href="/events">Events</Link></li>
+            <li><Link href="/membership">Membership</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
 

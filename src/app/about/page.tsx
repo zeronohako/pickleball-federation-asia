@@ -38,7 +38,7 @@ export default function AboutPage() {
         <h3 className="text-xl font-semibold mb-2">A short history</h3>
         <p className="text-sm text-slate-700">
           Pickleball Federation Asia was formed to coordinate development across the region, bringing together national bodies,
-          clubs, and volunteers to share resources and host inclusive events. Since our founding, we've supported coach education,
+          clubs, and volunteers to share resources and host inclusive events. Since our founding, we&apos;ve supported coach education,
           equipment grants, and the growth of national federations.
         </p>
       </section>
